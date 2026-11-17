@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_modes"
+        android:title="ব্রাউজিং মোড"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/mode_mobile" android:title="Mobile View" />
+            <item android:id="@+id/mode_mbasic" android:title="mBasic View" />
+            <item android:id="@+id/mode_desktop" android:title="Desktop View" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_proxy"
+        android:title="প্রক্সি সেটিংস"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_2fa"
+        android:title="2FA অথেনটিকেটর"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_telegram_bot"
+        android:title="টেলিগ্রাম বট"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_telegram_support"
+        android:title="সাপোর্ট চ্যানেল"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_update"
+        android:title="আপডেট চেক"
+        app:showAsAction="never" />
+</menu>
