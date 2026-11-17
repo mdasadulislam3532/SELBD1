@@ -15,7 +15,12 @@
 
     <item
         android:id="@+id/action_proxy"
-        android:title="প্রক্সি সেটিংস"
+        android:title="প্রক্সি সেটিংস (ফুল ফরম্যাট)"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_data"
+        android:title="ক্লিয়ার অ্যাপ ডাটা (Reset)"
         app:showAsAction="never" />
 
     <item
